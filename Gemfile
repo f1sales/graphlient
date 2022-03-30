@@ -5,7 +5,7 @@ gemspec
 gem 'rake'
 
 group :development, :test do
-  gem 'activesupport', '< 6'
+  gem 'activesupport'
 end
 
 group :development do
@@ -15,7 +15,7 @@ group :development do
 end
 
 group :test do
-  gem 'graphql', '~> 1.9'
+  gem 'graphql'
   gem 'graphql-errors'
   gem 'rack-parser'
   gem 'rack-test'
